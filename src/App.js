@@ -11,8 +11,15 @@ const data = [
 // Counter Component
 class Counter extends Component {
   render() {
+
     const { value } = this.props;
     return (
+      <div>
+         function onIncrement(value){
+           data.includes(true)
+      //value = {this.render} 
+         }
+    </div>
       <div className="counter">
         <b>{value}</b>
         <div className="counter-controls">
@@ -20,13 +27,15 @@ class Counter extends Component {
           <button className="button is-success is-small">+</button>
         </div>
       </div>
-    );
   }
 }
+
 
 class App extends Component {
   constructor(props, context) {
     super(props, context);
+    data (props, context);
+
   }
 
   render() {
